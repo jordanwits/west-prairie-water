@@ -42,7 +42,7 @@ export function Header() {
 
   return (
     <header className="w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-      <div className="container flex h-20 sm:h-24 items-center justify-between px-4 sm:px-6 lg:px-8">
+      <div className="container flex h-16 sm:h-20 md:h-24 items-center justify-between px-4 sm:px-6 lg:px-8">
       <div className="flex items-center gap-2 flex-shrink-0">
           <Link
             href="#"
@@ -56,7 +56,7 @@ export function Header() {
             <img
               src="/images/wp-water-logo.png"
               alt="West Prairie Water Company Logo"
-              className="h-16 sm:h-20 w-auto rounded-md"
+              className="h-12 sm:h-16 md:h-20 w-auto rounded-md"
             />
           </Link>
         </div>
